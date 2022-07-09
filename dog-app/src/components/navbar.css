@@ -1,0 +1,148 @@
+.hero__container {
+  background-image: url("../images/hero.png");
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+}
+
+.navbar__container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  height: fit-content;
+  padding-top: 40px;
+}
+
+.logo__container {
+  display: flex;
+}
+.logo__text {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+.logo__image {
+  height: 40px;
+  width: 40px;
+}
+.navbar__details__container {
+  display: flex;
+}
+
+.boarding__container {
+  display: flex;
+  margin-right: 60px;
+}
+.boarding__container > img {
+  height: 25px;
+  width: 25px;
+}
+
+.boarding__text {
+  padding-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.call__container {
+  display: flex;
+  margin-right: 40px;
+}
+.call__container > img {
+  height: 25px;
+  width: 25px;
+}
+
+.call__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+.appointment__button {
+  background-color: #f2726f;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 11px;
+  width: 200px;
+  font-weight: 600;
+  letter-spacing: 0.01cm;
+}
+.appointment__button1 {
+  background-color: #f2726f;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 8px;
+  border: none;
+  color: #ffffff;
+  font-size: 10px;
+  width: 200px;
+  font-weight: 600;
+  letter-spacing: 0.01cm;
+}
+
+.service__container {
+  background-color: #ffffff;
+  height: 60px;
+  width: 70%;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list__items {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #000000;
+  padding: 0px 6px;
+  margin: 0px 15px;
+}
+
+.list__container {
+  display: flex;
+}
+.search__and__cart__container {
+  padding-right: 20px;
+}
+.search__and__cart__container > img {
+  margin-right: 20px;
+}
+.hero__text__container {
+  position: relative;
+  right: 250px;
+  top: 150px;
+}
+
+.hero__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+
+  color: #ffffff;
+}
